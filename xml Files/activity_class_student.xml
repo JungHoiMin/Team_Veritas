@@ -44,17 +44,13 @@
         android:layout_marginStart="0dp"
         android:layout_marginTop="0dp"
         android:layout_marginBottom="85dp"
-        android:orientation="vertical">
+        android:orientation="vertical"/>
 
-        <ImageView
-            android:id="@+id/ivExample"
-            android:layout_width="match_parent"
-            android:layout_height="267dp"
-            android:layout_centerHorizontal="false"
-            android:layout_marginTop="20dp"
-            android:layout_weight="1"
-            tools:srcCompat="@drawable/iv_pro" />
-
-    </LinearLayout>
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="534dp"
+        android:layout_height="243dp"
+        android:layout_centerInParent="true"
+        app:srcCompat="@drawable/iv_pro" />
 
 </RelativeLayout>
