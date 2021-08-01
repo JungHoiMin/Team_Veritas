@@ -37,7 +37,7 @@
         android:orientation="vertical"/>
 
     <ImageButton
-        android:id="@+id/ibtnGoToParticipants"
+        android:id="@+id/ibtnShareCheck"
         android:layout_width="68dp"
         android:layout_height="76dp"
         android:layout_alignParentStart="true"
@@ -47,7 +47,7 @@
         app:srcCompat="@drawable/ibtn_screen_sharing" />
 
     <ImageButton
-        android:id="@+id/ibtnConvertPDF"
+        android:id="@+id/ibtnPdf"
         android:layout_width="68dp"
         android:layout_height="76dp"
         android:layout_alignParentStart="true"
@@ -57,7 +57,7 @@
         app:srcCompat="@drawable/ibtn_screen_sharing" />
 
     <ImageButton
-        android:id="@+id/ibtnMikeOn"
+        android:id="@+id/ibtnFocus"
         android:layout_width="68dp"
         android:layout_height="76dp"
         android:layout_alignParentStart="true"
@@ -67,7 +67,7 @@
         app:srcCompat="@drawable/ibtn_screen_sharing" />
 
     <ImageButton
-        android:id="@+id/ibtnOpenChat"
+        android:id="@+id/ibtnChat"
         android:layout_width="68dp"
         android:layout_height="76dp"
         android:layout_alignParentStart="true"
@@ -77,7 +77,7 @@
         app:srcCompat="@drawable/ibtn_screen_sharing" />
 
     <ImageButton
-        android:id="@+id/ibtnCloseMenu"
+        android:id="@+id/ibtnMenuClose"
         android:layout_width="68dp"
         android:layout_height="76dp"
         android:layout_alignParentStart="true"
