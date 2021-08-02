@@ -27,12 +27,14 @@
                     android:background="#CCCCCC"
                     android:gravity="center"/>
                 <GridLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:rowCount="2"
                     android:columnCount="2"
-                    android:orientation="horizontal">
-
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="40dp"
+                    android:useDefaultMargins="true">
                     <Button
                         android:id="@+id/btnMakeConference"
                         android:layout_width="wrap_content"
@@ -41,7 +43,8 @@
                         android:textSize="23dp"
                         android:backgroundTint="@color/white"
                         android:textColor="@color/black"
-                        android:drawableTop="@drawable/btn_MakeConference"/>
+                        android:drawableTop="@drawable/images"
+                        android:layout_margin="20dp"/>
                     <Button
                         android:id="@+id/btnEnterRoom"
                         android:layout_width="wrap_content"
@@ -50,7 +53,8 @@
                         android:textSize="23dp"
                         android:backgroundTint="@color/white"
                         android:textColor="@color/black"
-                        android:drawableTop="@drawable/btn_EnterConference" />
+                        android:drawableTop="@drawable/images"
+                        android:layout_margin="20dp"/>
                     <Button
                         android:id="@+id/btn1"
                         android:layout_width="wrap_content"
@@ -59,7 +63,8 @@
                         android:textSize="23dp"
                         android:backgroundTint="@color/white"
                         android:textColor="@color/black"
-                        android:drawableTop="@drawable/btn_MakeConference"/>
+                        android:drawableTop="@drawable/images"
+                        android:layout_margin="20dp"/>
                     <Button
                         android:id="@+id/btn2"
                         android:layout_width="wrap_content"
@@ -68,7 +73,8 @@
                         android:textSize="23dp"
                         android:backgroundTint="@color/white"
                         android:textColor="@color/black"
-                        android:drawableTop="@drawable/btn_MakeConference"/>
+                        android:drawableTop="@drawable/images"
+                        android:layout_margin="20dp"/>
                 </GridLayout>
             </LinearLayout>
             <LinearLayout
@@ -76,6 +82,19 @@
                 android:orientation="vertical"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="파일관리"
+                    android:textSize="25dp"
+                    android:paddingVertical="10dp"
+                    android:textColor="@color/black"
+                    android:background="#CCCCCC"
+                    android:gravity="center"/>
+                <ListView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/lvFiles"/>
             </LinearLayout>
             <LinearLayout
                 android:id="@+id/llSetting"
@@ -88,7 +107,6 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:id="@android:id/tabs">
-        </TabWidget>
+            android:id="@android:id/tabs"/>
     </LinearLayout>
 </TabHost>
